@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --header-color: #f7f7f7
+  --shadow-color: #dcdcdc
+}
+
+.head h2{
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.head p{
+  margin-left: 1rem;
+}
+
+.head p i{
+  color: yellow;
+  
+}
+
+header{
+
+  box-shadow: 0 0 0 .03px
+}
+
+header img{
+  width: 4rem;
+  height: 4rem;
+
+  margin-left: 80%;
+  clip-path: circle();
+
+  border-radius: 0.23rem;
+
+  display: inline-block;
+  margin-top: -2.7rem;
+}
+
+.bars{
+  display: flex;
+}
+
+
+.bars p {
+  margin-left: 1rem;
+  font-size: 1.3rem;
+  margin-right: 2rem;
+ 
+  background: rgb(211, 211, 211);
+  color: black;
+  cursor: pointer;
+}
+
+.bars span {
+  margin-left: 1rem;
+  font-size: 1.3rem;
+  margin-right: 2rem;
+ 
+  background: rgb(211, 211, 211);
+  color: black;
+  cursor: pointer;
+}
+
+.bars p i{
+  color: red;
+}
+
+.bars span i{
+  color: red;
+}
+
+.divider-1{
+  margin-top: 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  margin-bottom: 1.5rem;
+}
+
+.search-bar input{
+  background-color: rgb(238, 238, 238);
+  padding: 0.5rem;
+  
+  margin-left: 1rem;
+  width: 90%;
+
+
+}
+
+
+.search-bar i{
+  color: red;
+  font-size: 1.235rem;
+
+  position: absolute;
+
+  left: 1.45rem;
+  
+}
